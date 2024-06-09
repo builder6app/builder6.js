@@ -3792,7 +3792,7 @@ var Airtable = /** @class */ (function () {
     };
     Airtable.default_config = function () {
         return {
-            endpointUrl: "" || 'https://api.airtable.com',
+            endpointUrl: "" || 'https://api.builder6.com',
             apiVersion: '0.1.0',
             apiKey: "",
             noRetryIfRateLimited: false,
