@@ -79,9 +79,9 @@ class Airtable {
 
     static default_config(): Airtable.AirtableOptions {
         return {
-            endpointUrl: process.env.AIRTABLE_ENDPOINT_URL || 'https://api.airtable.com',
+            endpointUrl: process.env.BUILDER6_ENDPOINT_URL || 'https://api.builder6.com',
             apiVersion: '0.1.0',
-            apiKey: process.env.AIRTABLE_API_KEY,
+            apiKey: process.env.BUILDER6_API_KEY,
             noRetryIfRateLimited: false,
             requestTimeout: 300 * 1000, // 5 minutes
         };

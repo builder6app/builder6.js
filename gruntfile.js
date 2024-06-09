@@ -1,3 +1,11 @@
+/*
+ * @Author: Jack Zhuang 50353452+hotlong@users.noreply.github.com
+ * @Date: 2024-06-09 16:26:09
+ * @LastEditors: Jack Zhuang 50353452+hotlong@users.noreply.github.com
+ * @LastEditTime: 2024-06-09 17:18:34
+ * @FilePath: /builder6.js/gruntfile.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 'use strict';
 
 module.exports = function(grunt) {
@@ -24,8 +32,8 @@ module.exports = function(grunt) {
                             // IMPORTANT: mask out environment variables that should never be shipped to the browser
                             {
                                 _: 'purge',
-                                AIRTABLE_ENDPOINT_URL: '',
-                                AIRTABLE_API_KEY: '',
+                                BUILDER6_ENDPOINT_URL: '',
+                                BUILDER6_API_KEY: '',
                                 npm_package_version: pkg.version,
                             },
                         ],
@@ -48,8 +56,8 @@ module.exports = function(grunt) {
                             // IMPORTANT: mask out environment variables that should never be shipped to the browser
                             {
                                 _: 'purge',
-                                AIRTABLE_ENDPOINT_URL: '',
-                                AIRTABLE_API_KEY: '',
+                                BUILDER6_ENDPOINT_URL: '',
+                                BUILDER6_API_KEY: '',
                                 npm_package_version: pkg.version,
                             },
                         ],
